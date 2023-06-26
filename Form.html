@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+
+<body>
+    <h1>Student Admission Form</h1>
+    <form action="backend.php">
+        <label for="studentname">Name:</label>
+        <div> <input type="text" name="studentname" placeholder="Enter your Name" id="studentname"></div>
+        <br>
+        <label for="contact">Contact Number:</label>
+        <div> <input type="number" name="contact" value="" placeholder="Enter Contact number" id="contact"> </div>
+        <br>
+        <label for="email">Email:</label>
+        <div> <input type="email" name="email" placeholder="Enter your Email" id="email"> </div>
+        <div>
+            <br>
+            <label for="male">Gender: Male</label>
+             <input type="radio" name="Gender" id="male"> 
+             <label for="female">Female</label>
+            <input type="radio" name="Gender" id="female">
+        </div>
+        <br>
+
+        <div>
+           Do you accept terms and Conditions <input type="checkbox" name="Terms" id="">
+
+        </div>
+
+        <div>
+            Date of Birth: <input type="date" name="" id="">
+
+        </div>
+<Br></Br>
+        <div>
+            Upload your File <input type="file" name="" id="" accept="image/*">
+        </div>
+        <br>
+        Residential Address: <br><textarea name="address" id="" cols="30" rows="10"></textarea>
+
+        <br>
+       Web Dev <select name="Options" id="">
+        <option value="">Frontend</option>
+        <option value="">Backend</option>
+        <option value="">Full Stack</option>
+
+       </select>
+       <br>
+       <input type="submit" value="submit">
+       <input type="reset" value="Reset">
+    </form>
+</body>
+
+</html>
